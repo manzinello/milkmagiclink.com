@@ -2,6 +2,7 @@
   "name": "milkmagiclink.com",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://milkmagiclink.com",
   "dependencies": {
     "@zeit-ui/style": "^0.9.3",
     "react": "^16.8.6",
