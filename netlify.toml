@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://milkmagiclink.netlify.com/*"
+  to = "https://milkmagiclink.com/:splat"
+  status = 301
+  force = true
