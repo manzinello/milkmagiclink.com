@@ -4,7 +4,11 @@ import "@zeit-ui/style";
 import "./App.css";
 
 function App() {
-  return <div />;
+  return (
+    <div>
+      <h1>milk</h1>
+    </div>
+  );
 }
 
 export default App;
