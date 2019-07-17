@@ -39,7 +39,7 @@ function App() {
             Try to click these buttons from iOS, from Android or from desktop.
           </p>
           <a
-            style={{ marginRight: 15 }}
+            style={{ marginRight: 15, marginBottom: 5 }}
             href="https://milkmagic.link/twitter"
             className="zi-btn shadow small"
           >
