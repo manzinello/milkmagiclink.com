@@ -23,7 +23,7 @@ function App() {
           the user to the correct store to download your app. Why we have to add
           two badges for the App Store and Play Store? With a single milk magic
           link the Android users will see the Play Store and the iOS users the
-          App Store.
+          App Store. <u>No more double badges!</u>
           <pre style={{ marginTop: 5, marginBottom: 5 }}>
             https://milkmagic.link/twitter
           </pre>
@@ -35,6 +35,9 @@ function App() {
         </p>
         <p>
           <h3>Real examples</h3>
+          <p>
+            Try to click these buttons from iOS, from Android or from desktop.
+          </p>
           <a
             style={{ marginRight: 15 }}
             href="https://milkmagic.link/twitter"
