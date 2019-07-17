@@ -62,12 +62,17 @@ function App() {
           (or other) URL as a fallback for all the unsupported OS and for the
           desktop.
         </p>
-        <a
-          href="https://airtable.com/shrIvWsukFBXl0HyM"
-          className="zi-btn success"
-        >
-          Request your magic link
-        </a>
+        <div className="milk-request">
+          <a
+            href="https://airtable.com/shrIvWsukFBXl0HyM"
+            className="zi-btn success"
+          >
+            Request your magic link
+          </a>
+          <a href="mailto:matteo@manzinello.dev" className="zi-btn">
+            Contact me
+          </a>
+        </div>
 
         <p className="zi-comment">milk is wip</p>
       </div>

@@ -12,7 +12,8 @@
   margin-bottom: 0px;
 }
 
-.milk-examplelinks a {
+.milk-examplelinks a,
+.milk-request a {
   margin-bottom: 5px;
   margin-right: 15px;
 }
