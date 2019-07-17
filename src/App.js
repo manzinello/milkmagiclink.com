@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div>
+    <div className="milk-app">
       <h1 className="milk-title">
         <img
           className="zi-avatar milk-logo"
@@ -24,7 +24,9 @@ function App() {
           two badges for the App Store and Play Store? With a single milk magic
           link the Android users will see the Play Store and the iOS users the
           App Store.
-          <pre>https://milkmagic.link/twitter</pre>
+          <pre style={{ marginTop: 5, marginBottom: 5 }}>
+            https://milkmagic.link/twitter
+          </pre>
           Obviously instead of <code>twitter</code> you can decide everything
           you want.
         </p>
@@ -33,16 +35,35 @@ function App() {
         </p>
         <p>
           <h3>Real examples</h3>
-          <a href="https://milkmagic.link/twitter">twitter </a> or{" "}
-          <a href="https://milkmagic.link/instagram">instagram</a>
+          <a
+            style={{ marginRight: 15 }}
+            href="https://milkmagic.link/twitter"
+            className="zi-btn shadow small"
+          >
+            Twitter
+          </a>
+          <a
+            href="https://milkmagic.link/instagram"
+            className="zi-btn shadow small"
+          >
+            Instagram
+          </a>
         </p>
-        <br />
-        <a
-          href="https://airtable.com/shrIvWsukFBXl0HyM"
-          className="zi-btn success"
-        >
-          Request your magic link
-        </a>
+        <p>
+          <h3>Request</h3>
+          <p>
+            Request the <strong>magic link</strong> for your app now, at the
+            moment milk supports iOS and Android. You must provide also a
+            website (or other) URL as a fallback for all the unsupported OS and
+            for the desktop.
+          </p>
+          <a
+            href="https://airtable.com/shrIvWsukFBXl0HyM"
+            className="zi-btn success"
+          >
+            Request your magic link
+          </a>
+        </p>
       </div>
       <p className="zi-comment">
         a project by{" "}
