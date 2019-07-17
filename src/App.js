@@ -2,6 +2,8 @@ import React from "react";
 
 import "@zeit-ui/style";
 
+import "mailgo";
+
 import "./App.css";
 
 function App() {
