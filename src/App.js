@@ -67,6 +67,7 @@ function App() {
             Request your magic link
           </a>
         </p>
+        <p class="zi-comment">milk is wip</p>
       </div>
       <p className="zi-comment">
         a project by{" "}
