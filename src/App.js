@@ -21,11 +21,15 @@ function App() {
       <div className="zi-card">
         <h3>What is milk?</h3>
         <p>
-          Milk gives you a single <strong>magic</strong> link that will redirect
-          the user to the correct store to download your app. Why we have to add
-          two badges for the App Store and Play Store? With a single milk magic
-          link the Android users will see the Play Store and the iOS users the
-          App Store. <u>No more double badges!</u>
+          Milk gives you a single <strong>magic</strong> link that will{" "}
+          <strong>redirect the user to the correct store</strong> to download
+          your app.
+        </p>
+        <p>
+          Why we have to add two badges for the App Store and Play Store? With a
+          single milk magic link the Android users will see the Play Store and
+          the iOS users the App Store (all the iOS links are in the new{" "}
+          <em>apps.apple.com</em> form)... <u>no more double badges!</u>
         </p>
         <pre class="zi-dark" style={{ marginTop: 5, marginBottom: 5 }}>
           https://milkmagic.link/twitter
