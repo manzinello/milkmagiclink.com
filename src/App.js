@@ -11,7 +11,8 @@ import {
   faInstagram,
   faApple,
   faAndroid,
-  faChrome
+  faChrome,
+  faSpotify
 } from "@fortawesome/free-brands-svg-icons";
 
 import "mailgo";
@@ -77,6 +78,12 @@ function App() {
             className="zi-btn shadow small"
           >
             <FontAwesomeIcon icon={faInstagram} /> Instagram
+          </a>
+          <a
+            href="https://milkmagic.link/spotify"
+            className="zi-btn shadow small"
+          >
+            <FontAwesomeIcon icon={faSpotify} /> Spotify
           </a>
         </div>
 
