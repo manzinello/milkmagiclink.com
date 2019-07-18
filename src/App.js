@@ -5,7 +5,7 @@ import "@zeit-ui/style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheckCircle, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import {
-  faAppStore,
+  faAppStoreIos,
   faGooglePlay,
   faTwitter,
   faInstagram,
@@ -32,7 +32,6 @@ function App() {
       </h1>
       <p className="zi-title">a magic link for your app</p>
       <div className="zi-card">
-        <h3>What is milk?</h3>
         <p>
           Milk gives you a single <strong>magic</strong> link that will{" "}
           <strong>redirect the user to the correct store</strong> to download
@@ -42,8 +41,9 @@ function App() {
           Why we have to add two badges for the App Store and Play Store? With a
           single milk magic link the Android users will see the Google Play{" "}
           <FontAwesomeIcon icon={faGooglePlay} /> and the iOS users the App
-          Store <FontAwesomeIcon icon={faAppStore} /> (all the iOS links are in
-          the new <em>apps.apple.com</em> form)... <u>no more double badges!</u>
+          Store <FontAwesomeIcon icon={faAppStoreIos} /> (all the iOS links are
+          in the new <em>apps.apple.com</em> form){" "}
+          <span class="zi-tag">no more double badges!</span>
         </p>
         <pre class="zi-dark" style={{ marginTop: 5, marginBottom: 5 }}>
           https://milkmagic.link/twitter
@@ -53,13 +53,15 @@ function App() {
           you want.
         </p>
         <p>
-          All links are{" "}
-          <strong>
-            human-checked{" "}
-            <span className="check">
-              <FontAwesomeIcon icon={faCheckCircle} />
-            </span>
-          </strong>
+          <div class="zi-tag">
+            All links are{" "}
+            <strong>
+              human-checked{" "}
+              <span className="check">
+                <FontAwesomeIcon icon={faCheckCircle} />
+              </span>
+            </strong>
+          </div>
         </p>
 
         <h3>Real examples</h3>
