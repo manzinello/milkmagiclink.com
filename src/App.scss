@@ -23,5 +23,19 @@
 }
 
 .check {
-  color: #87d068;
+}
+
+.milk-examplelinks a {
+  color: white;
+
+  &.twitter {
+    background: #00aced;
+  }
+  &.instagram {
+    background: #c13584;
+  }
+  &.spotify {
+    background: #1db954;
+    box-shadow: 0 3px 10px rgba(30, 215, 96, 0.12);
+  }
 }

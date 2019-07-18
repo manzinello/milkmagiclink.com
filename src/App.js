@@ -69,19 +69,19 @@ function App() {
         <div className="milk-examplelinks">
           <a
             href="https://milkmagic.link/twitter"
-            className="zi-btn shadow small"
+            className="zi-btn shadow small twitter"
           >
             <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
           <a
             href="https://milkmagic.link/instagram"
-            className="zi-btn shadow small"
+            className="zi-btn shadow small instagram"
           >
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
           <a
             href="https://milkmagic.link/spotify"
-            className="zi-btn shadow small"
+            className="zi-btn shadow small spotify"
           >
             <FontAwesomeIcon icon={faSpotify} /> Spotify
           </a>
