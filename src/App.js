@@ -2,9 +2,13 @@ import React from "react";
 
 import "@zeit-ui/style";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { faAppStore, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
+
 import "mailgo";
 
-import "./App.css";
+import "./App.scss";
 
 function App() {
   return (
@@ -27,9 +31,10 @@ function App() {
         </p>
         <p>
           Why we have to add two badges for the App Store and Play Store? With a
-          single milk magic link the Android users will see the Play Store and
-          the iOS users the App Store (all the iOS links are in the new{" "}
-          <em>apps.apple.com</em> form)... <u>no more double badges!</u>
+          single milk magic link the Android users will see the Google Play{" "}
+          <FontAwesomeIcon icon={faGooglePlay} /> and the iOS users the App
+          Store <FontAwesomeIcon icon={faAppStore} /> (all the iOS links are in
+          the new <em>apps.apple.com</em> form)... <u>no more double badges!</u>
         </p>
         <pre class="zi-dark" style={{ marginTop: 5, marginBottom: 5 }}>
           https://milkmagic.link/twitter
@@ -39,7 +44,13 @@ function App() {
           you want.
         </p>
         <p>
-          All links are <strong>human-checked</strong>.
+          All links are{" "}
+          <strong>
+            human-checked{" "}
+            <span className="check">
+              <FontAwesomeIcon icon={faCheckCircle} />
+            </span>
+          </strong>
         </p>
 
         <h3>Real examples</h3>
