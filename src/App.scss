@@ -1,3 +1,7 @@
+$twitter-color: #00aced;
+$instagram-color: #c13584;
+$spotify-color: #1db954;
+
 .milk-logo {
   width: 41px;
   height: 41px;
@@ -29,13 +33,24 @@
   color: white;
 
   &.twitter {
-    background: #00aced;
+    background: $twitter-color;
+    &:hover {
+      border-color: $twitter-color !important;
+      color: $twitter-color !important;
+    }
   }
   &.instagram {
-    background: #c13584;
+    background: $instagram-color;
+    &:hover {
+      border-color: $instagram-color !important;
+      color: $instagram-color !important;
+    }
   }
   &.spotify {
-    background: #1db954;
-    box-shadow: 0 3px 10px rgba(30, 215, 96, 0.12);
+    background: $spotify-color;
+    &:hover {
+      border-color: $spotify-color !important;
+      color: $spotify-color !important;
+    }
   }
 }

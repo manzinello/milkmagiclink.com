@@ -69,19 +69,19 @@ function App() {
         <div className="milk-examplelinks">
           <a
             href="https://milkmagic.link/twitter"
-            className="zi-btn shadow small twitter"
+            className="zi-btn small twitter"
           >
             <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
           <a
             href="https://milkmagic.link/instagram"
-            className="zi-btn shadow small instagram"
+            className="zi-btn small instagram"
           >
             <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
           <a
             href="https://milkmagic.link/spotify"
-            className="zi-btn shadow small spotify"
+            className="zi-btn small spotify"
           >
             <FontAwesomeIcon icon={faSpotify} /> Spotify
           </a>
@@ -101,11 +101,11 @@ function App() {
         <div className="milk-request">
           <a
             href="https://airtable.com/shrIvWsukFBXl0HyM"
-            className="zi-btn success"
+            className="zi-btn success shadow"
           >
             Request your magic link
           </a>
-          <a href="mailto:matteo@manzinello.dev" className="zi-btn">
+          <a href="mailto:matteo@manzinello.dev" className="zi-btn shadow">
             <FontAwesomeIcon icon={faPaperPlane} /> Contact me
           </a>
         </div>
