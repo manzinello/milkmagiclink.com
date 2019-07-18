@@ -113,8 +113,21 @@ function App() {
         <p className="zi-comment">milk is wip</p>
       </div>
       <p className="zi-comment">
-        a project by{" "}
-        <a href="https://matteomanzinello.com">matteo manzinello</a>
+        <a
+          href="http://status.milkmagiclink.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          status
+        </a>{" "}
+        · a project by{" "}
+        <a
+          href="https://matteomanzinello.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          matteo manzinello
+        </a>
       </p>
     </div>
   );
