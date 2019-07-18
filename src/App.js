@@ -3,8 +3,16 @@ import React from "react";
 import "@zeit-ui/style";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
-import { faAppStore, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
+import { faCheckCircle, faPaperPlane } from "@fortawesome/free-solid-svg-icons";
+import {
+  faAppStore,
+  faGooglePlay,
+  faTwitter,
+  faInstagram,
+  faApple,
+  faAndroid,
+  faChrome
+} from "@fortawesome/free-brands-svg-icons";
 
 import "mailgo";
 
@@ -62,20 +70,24 @@ function App() {
             href="https://milkmagic.link/twitter"
             className="zi-btn shadow small"
           >
-            Twitter
+            <FontAwesomeIcon icon={faTwitter} /> Twitter
           </a>
           <a
             href="https://milkmagic.link/instagram"
             className="zi-btn shadow small"
           >
-            Instagram
+            <FontAwesomeIcon icon={faInstagram} /> Instagram
           </a>
         </div>
 
         <h3>Request</h3>
         <p>
           Request the <strong>magic link</strong> for your app now, at the
-          moment milk supports iOS and Android. You must provide also a website
+          moment milk supports <FontAwesomeIcon icon={faApple} /> iOS and{" "}
+          <FontAwesomeIcon icon={faAndroid} /> Android.
+        </p>
+        <p>
+          You must provide also a website <FontAwesomeIcon icon={faChrome} />{" "}
           (or other) URL as a fallback for all the unsupported OS and for the
           desktop.
         </p>
@@ -87,7 +99,7 @@ function App() {
             Request your magic link
           </a>
           <a href="mailto:matteo@manzinello.dev" className="zi-btn">
-            Contact me
+            <FontAwesomeIcon icon={faPaperPlane} /> Contact me
           </a>
         </div>
 
