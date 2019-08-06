@@ -116,7 +116,7 @@ function App() {
       </div>
       <p className="zi-comment">
         <a
-          href="http://status.milkmagiclink.com"
+          href="http://status.milkmagiclink.com?ref=milk"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -124,7 +124,7 @@ function App() {
         </a>{" "}
         · a project by{" "}
         <a
-          href="https://matteomanzinello.com"
+          href="https://matteomanzinello.com?ref=milk"
           target="_blank"
           rel="noopener noreferrer"
         >
