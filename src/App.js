@@ -130,6 +130,9 @@ function App() {
         >
           matteo manzinello
         </a>
+        <a className="netlify-badge" href="https://www.netlify.com">
+          <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" />
+        </a>
       </p>
     </div>
   );
