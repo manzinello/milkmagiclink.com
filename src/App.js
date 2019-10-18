@@ -19,6 +19,8 @@ import "mailgo";
 
 import "./App.scss";
 
+import "@fab-ulous/github";
+
 function App() {
   return (
     <div className="milk-app">
@@ -132,6 +134,14 @@ function App() {
         </a>
         <a className="netlify-badge" href="https://www.netlify.com">
           <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" />
+        </a>
+        <a
+          className="github-fabulous blue"
+          style={{ background: "#007aff" }}
+          href="https://github.com/manzinello/milkmagiclink.com"
+          target="noopener noreferrer"
+        >
+          GitHub
         </a>
       </p>
     </div>
