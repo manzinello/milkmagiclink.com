@@ -915,6 +915,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
+"@fab-ulous/github@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@fab-ulous/github/-/github-0.1.8.tgz#0b2e6d6e6dc9730ff97b3b3fdf2b9c2dddf3e413"
+  integrity sha512-ZBqGT8vvbUW5YgQce2TAH4IfyBiBJ5GnIIDcfx8WZPpgRVUDOkUx8FovW4YXU6VL/2TORmTzDhvQs4cz0YiGdA==
+
 "@fortawesome/fontawesome-common-types@^0.2.25":
   version "0.2.25"
   resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-common-types/-/fontawesome-common-types-0.2.25.tgz#6df015905081f2762e5cfddeb7a20d2e9b16c786"
