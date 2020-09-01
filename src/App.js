@@ -12,10 +12,10 @@ import {
   faApple,
   faAndroid,
   faChrome,
-  faSpotify
+  faSpotify,
 } from "@fortawesome/free-brands-svg-icons";
 
-import "mailgo";
+import "mailgo/dist/mailgo.min.js";
 
 import "./App.scss";
 

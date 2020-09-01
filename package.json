@@ -5,15 +5,15 @@
   "homepage": "https://milkmagiclink.com",
   "dependencies": {
     "@fab-ulous/github": "^0.1.8",
-    "@fortawesome/fontawesome-svg-core": "^1.2.25",
-    "@fortawesome/free-brands-svg-icons": "^5.11.2",
-    "@fortawesome/free-solid-svg-icons": "^5.11.2",
-    "@fortawesome/react-fontawesome": "^0.1.6",
-    "@zeit-ui/style": "^0.9.3",
-    "mailgo": "^0.7.6",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.30",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@zeit-ui/style": "^0.9.5",
+    "mailgo": "^0.9.15",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.3"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,6 +37,6 @@
     ]
   },
   "devDependencies": {
-    "node-sass": "^4.12.0"
+    "node-sass": "^4.14.1"
   }
 }
