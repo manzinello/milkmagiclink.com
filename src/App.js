@@ -34,114 +34,11 @@ function App() {
       </h1>
       <p className="zi-title">a magic link for your app</p>
       <div className="zi-card">
-        <p>
-          Milk gives you a single <strong>magic</strong> link that will{" "}
-          <strong>redirect the user to the correct store</strong> to download
-          your app.
-        </p>
-        <p>
-          Why we have to add two badges for the App Store and Play Store? With a
-          single milk magic link the Android users will see the Google Play{" "}
-          <FontAwesomeIcon icon={faGooglePlay} /> and the iOS users the App
-          Store <FontAwesomeIcon icon={faAppStoreIos} /> (all the iOS links are
-          in the new <em>apps.apple.com</em> form){" "}
-          <span class="zi-tag">no more double badges!</span>
-        </p>
-        <pre class="zi-dark" style={{ marginTop: 5, marginBottom: 5 }}>
-          https://milkmagic.link/twitter
-        </pre>
-        <p>
-          Obviously instead of <code>twitter</code> you can decide everything
-          you want.
-        </p>
-        <p>
-          <div class="zi-tag">
-            All links are{" "}
-            <strong>
-              human-checked{" "}
-              <span className="check">
-                <FontAwesomeIcon icon={faCheckCircle} />
-              </span>
-            </strong>
-          </div>
-        </p>
-
-        <h3>Real examples</h3>
-        <p>
-          Try to click these buttons from iOS, from Android or from desktop.
-        </p>
-        <div className="milk-examplelinks">
-          <a
-            href="https://milkmagic.link/twitter"
-            className="zi-btn small twitter"
-          >
-            <FontAwesomeIcon icon={faTwitter} /> Twitter
-          </a>
-          <a
-            href="https://milkmagic.link/instagram"
-            className="zi-btn small instagram"
-          >
-            <FontAwesomeIcon icon={faInstagram} /> Instagram
-          </a>
-          <a
-            href="https://milkmagic.link/spotify"
-            className="zi-btn small spotify"
-          >
-            <FontAwesomeIcon icon={faSpotify} /> Spotify
-          </a>
-        </div>
-
-        <h3>Request</h3>
-        <p>
-          Request the <strong>magic link</strong> for your app now, at the
-          moment milk supports <FontAwesomeIcon icon={faApple} /> iOS and{" "}
-          <FontAwesomeIcon icon={faAndroid} /> Android.
-        </p>
-        <p>
-          You must provide also a website <FontAwesomeIcon icon={faChrome} />{" "}
-          (or other) URL as a fallback for all the unsupported OS and for the
-          desktop.
-        </p>
-        <div className="milk-request">
-          <a
-            href="https://airtable.com/shrIvWsukFBXl0HyM"
-            className="zi-btn success shadow"
-          >
-            Request your magic link
-          </a>
-          <a href="mailto:matteo@manzinello.dev" className="zi-btn shadow">
-            <FontAwesomeIcon icon={faPaperPlane} /> Contact me
-          </a>
-        </div>
-
-        <p className="zi-comment">milk is wip</p>
+        <p>milk project has been closed.</p>
       </div>
       <p className="zi-comment">
-        <a
-          href="http://status.milkmagiclink.com?ref=milk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          status
-        </a>{" "}
-        · a project by{" "}
-        <a
-          href="https://matteomanzinello.com?ref=milk"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          matteo manzinello
-        </a>
         <a className="netlify-badge" href="https://www.netlify.com">
           <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" />
-        </a>
-        <a
-          className="github-fabulous blue"
-          style={{ background: "#007aff" }}
-          href="https://github.com/manzinello/milkmagiclink.com"
-          target="noopener noreferrer"
-        >
-          GitHub
         </a>
       </p>
     </div>
